@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1300px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width: 120px;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+}
+.headerwrap input{
+    margin-left:15px;
+    padding-top: 16px;
+    border:1px solid #888;
+    border-radius: 15px;
+    width:200px;
+    height:10px;
+    background: url(https://static2.cnodejs.org/public/images/search.e53b380a.hashed.png) 4px 4px no-repeat #888;
+    background-color: #888;
+    opacity: 0.8;
+}
+.headerwrap input:hover{
+    border:1px solid white;
+    background-color: white;
+}
+
+/* main */
+.main{
+    width: 1300px;
+    margin: 30px auto;
+}
+.content{
+    width: 1000px;
+    float: left;
+    /* border: 2px solid red; */
+}
+
+.header{
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+.link{
+    margin: 0 10px;
+    color: green;
+    text-decoration:none
+}
+.link:focus{
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(29, 170, 29);
+    padding:3px;
+    border-radius: 3px;
+    text-decoration:none;
+}
+
+/* 详情 */
+.all{
+    background-color: white;
+}
+.list{
+    /* width:900px; */
+    height:50px;
+    line-height:50px;
+    padding-left: 10px;
+    border-bottom:1px solid rgb(185, 184, 184);
+}
+.list:hover{
+    background-color:rgba(238, 236, 236, 0.5);
+}
+.list_img{
+    width:30px;
+    height:30px;
+    line-height: 50px;
+    float:left;
+}
+.list_reply{
+    width:60px;
+    font-size:12px;
+    color:rgb(170, 38, 170);
+    float: left;
+    margin-left:10px;
+    /* margin-right:5px; */
+}
+.list_visit{
+    font-size:10px;
+    color:rgb(196, 195, 195);
+    
+}
+.list_title{
+    width:800px;
+    overflow: hidden;
+    font-size:16px;
+    color:black;
+    text-decoration: none;
+    float:left;
+}
+.list_title:hover{
+    text-decoration: underline;
+}
+.list_time{
+    float:right;
+    font-size:10px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.list_img1{
+    width:20px;
+    height:20px;
+    float:right;
+    margin-top:15px;
+}
+/* 页码 */
+.page{
+    padding-left:30px;
+    width:970px;
+    height:50px;
+    padding-top: 10px;
+    
+}
+.page li{
+    float:left;
+    width:25px;
+    height:30px;
+    line-height: 30px;
+    font-size:13px;
+    text-align:center;
+    color:rgb(180, 179, 179);
+    border:1px solid rgb(180, 179, 179);
+}
+.active{
+    border:blue;
+}
+/* 详情 */
+.topic{
+    padding:15px;
+    border-radius: 5px;
+    background-color: white;
+}
+.t1 {
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+.t1 span{
+    padding-top:5px;
+    color:#b3afaf;
+    font-size:14px;
+}
+/*silder*/
+.silder{
+    width: 270px;
+    float: right;
+}
+.silder_login{
+    width:270px;
+    height:100px;
+    float:right;
+    background-color:white;
+}
+.silder_login p{
+    margin-top:5px;
+    margin-left:10px;
+}
+.silder_login button{
+    margin-top:20px;
+    margin-left:80px;
+    text-align: center;
+    width:100px;
+    height:35px;
+    background-color: rgb(78, 181, 250);
+    border:1px solid  rgb(78, 181, 250);
+    border-radius: 5px;
+    color:white;
+}
+
+.silder_img img{
+    width:250px;
+    height:80px;
+    float:right;
+}
+.silder_img{
+    margin-top:10px;
+    padding:10px;
+    float:right;
+    background-color: white;
+}
+
+/*登录页*/
+.signin{
+    background-color: white;
+    height:500px;
+    border-radius: 5px;
+}
+.p1{
+    height:30px;
+    width:990px;
+    background-color: rgba(238, 236, 236, 0.5);
+    line-height: 30px;
+    padding-left:10px;
+    color:green;   
+}
+.s1{
+    width:500px;
+    height:300px;
+    margin-top:80px;
+    margin-left:250px;
+}
+.s1 p{
+    margin-bottom:10px;
+}
+.s1 p button{
+    margin-left:50px;
+    margin-top:10px;
+    width:150px;
+    height:35px;
+    font-size:16px;
+    color:white;
+    border:1px solid rgb(34, 178, 245);
+    background-color: rgb(34, 178, 245);
+    border-radius: 5px;
+}
+
+.signin h2{
+    padding-top:30px;
+    padding-left:50px;
+}
